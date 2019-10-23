@@ -1,6 +1,7 @@
-body{
+body {
 	font-size: 14px;
-	font-family: sans-serif;	
+	font-family: sans-serif;
+	margin: 0;	
 }
 .page-wrapper {
 	padding: 0 15px 10px;
@@ -14,16 +15,20 @@ h1 {
 	padding: 5px 10px;
 	color: #FFF;
 }
+h1:first-child {
+	margin-top: 0;
+}
 .nav-list {
 	list-style: none;
 	display: flex;
-	padding: 0;
+	padding: 0 0 0 10px;
 }
-.nav-list li {
+.nav-list .nav-list__item {
 	margin: 0 10px 0 0;
+	font-size: 16px; 
 }
 p.section__text {
-	padding: 0 0 0 5px;
+	padding: 0 0 0 10px;
 }
 a, a:visited {
 	color: #486de2;
