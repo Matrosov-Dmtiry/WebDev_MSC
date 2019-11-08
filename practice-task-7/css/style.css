@@ -2,31 +2,11 @@
 
 @keyframes rotate {
 	0% {
-		background-position: 50px 50px;
+		transform: rotate(0deg);
 	}
-	12.5% {
-		background-position: 175px 0px;
-	}
-	25% {
-		background-position: 310px 50px;
-	}
-	37.5% {
-		background-position: 350px 175px;
-	}
-	50% {
-		background-position: 310px 310px;
-	}
-	62.5% {
-		background-position: 175px 350px;
-	}
-	75% {
-		background-position: 50px 310px;
-	}
-	87.5% {
-		background-position: 0px 175px;
-	}
+
 	100% {
-		background-position: 50px 50px;
+		transform: rotate(360deg);
 	}
 }
 .page {
@@ -56,6 +36,5 @@
 	left: 50%;
 	margin-top: -200px;
 	margin-left: -200px;
-	overflow: visible;
-	animation: rotate 7s infinite linear;
+	animation: rotate 6s infinite linear;
 }
