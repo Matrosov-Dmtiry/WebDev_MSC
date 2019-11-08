@@ -73,10 +73,42 @@ body {
 	display: block;
 }
 .recipe__info__text, 
-.recipe__info__title {
+.recipe__info__title,
+.recipe__info__list {
 	margin: 0 0 30px;
 }
 .recipe__info__text:last-child, 
-.recipe__info__title:last-child {
+.recipe__info__title:last-child,
+.recipe__info__list:last-child {
 	margin: 0;
+}
+.recipe__info__text__list {
+	
+}
+.recipe__info__text__list li{
+	list-style: none;
+}
+.recipe__info__text__list_dash li {
+	padding: 0 0 0 12px;
+	position: relative
+}
+.recipe__info__text__list_dash li::before {
+	display: block;
+	width: 10px;
+	content: '-';
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.recipe__info__list li{
+	list-style: none;
+}
+.recipe__info__list_ingredients::before{
+	display: block;
+	content: 'ingredients:';
+	text-transform: uppercase;
+}
+.recipe__info__list_directions::before{
+	display: block;
+	content: 'Directions';
 }
