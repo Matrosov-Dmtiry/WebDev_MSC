@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+html {
+	font-family: Helvetica, sans-serif;
+  height: 100%;
+}
+body {
+  height: 100vh;
+}
+
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.header, .footer {
+	display: flex;
+	color: #fff;
+	background: #0000FF;
+	padding: 35px 30px 36px;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+.footer {
+	justify-content: space-between;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+.footer__link, .footer__link:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+.task-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 1;
+	padding: 20px 0;
+}
+.task {
+  display: flex;
+	width: 600px;
+	height: 300px;
+	align-items: center;
+	border: 5px solid #000;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+@media screen 
+	and (max-width: 812px){
+	.task {
+		width: 330px;
+		height: 165px;
+		font-size: 25px;
+		line-height: 29px;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+@media screen 
+	and (max-width: 415px) 
+	and (orientation: portrait) {
+		.task {
+			margin: 0 0 40px 0;
+		}
+		.task:last-child {
+			margin: 0;
+		}
+	}
+@media screen 
+	and (max-width: 415px) 
+	and (orientation: landscape) {
+	.task {
+			margin: 10px;
+	}
+}
