@@ -1,0 +1,118 @@
+@import url(reset.css);
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+.page-wrapper {
+	padding: 120px 0 140px;
+	min-height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	margin: 0 auto;
+	letter-spacing: 0.05em;
+	font-size:  25px;
+	line-height: 29px;
+}
+
+.header, .footer {
+	box-sizing: border-box;
+	width:  100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	font-size: 50px;
+}
+
+.header {
+	position:  fixed;
+	top: 0;
+	max-width: inherit;
+	background: #fff;
+	color: #E50043;
+}
+
+.header__link {
+	display: inline-block;
+	text-decoration: none;
+	color: #E50043;
+}
+
+.header__link, .header__link:visited,
+.footer__link, .footer__link:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background: #F8BFC7;
+	color: #fff;
+}
+
+.footer__link {
+	color: #fff;
+}
+
+.img-container {
+	text-align: center;
+}
+.img-container img {
+	max-width: 100%;
+}
+
+.description-container {
+	padding: 150px 0;
+}
+
+.description {
+	display: flex;
+	box-sizing: border-box;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	padding: 25px;
+	color: #000;
+	max-width: 1040px;
+	margin: 0 auto;
+}
+
+.description__img {
+	text-align: center;
+	min-width: 200px;
+	margin: 0 20px 0 0;
+}
+
+.description__text {
+	margin-bottom: 30px;
+}
+
+.description__text:last-child {
+	margin: 0;
+}
+
+.bottles-container {
+		display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.bottle {
+	max-width:  280px;
+}
+.bottle:last-child {
+	margin:  0;
+}
+
+.bottle__img {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.bottle__description {
+	text-align:  center;
+}
