@@ -8,4 +8,5 @@
   - [Задание 6](https://github.com/Matrosov-Dmtiry/WebDev_MSC/tree/practice-task-6)
   - [Задание 7](https://github.com/Matrosov-Dmtiry/WebDev_MSC/tree/practice-task-7)
   - [Задание 8](https://github.com/Matrosov-Dmtiry/WebDev_MSC/tree/practice-task-8)
+  - [Задание 9](https://github.com/Matrosov-Dmtiry/WebDev_MSC/tree/practice-task-9)
 
