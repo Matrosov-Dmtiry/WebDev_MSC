@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Practice task 10</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<header class="header">
+			<label class="nav-list-toogle-btn" for="toogle-btn"></label>
+			<input type="checkbox" name="toogle-btn" id="toogle-btn"/>
+			<ul class="nav-list">
+				<li>
+					<a class="nav-list__link" href="#">посылка</a>
+				</li>
+				<li>
+					<a class="nav-list__link" href="#">упаковка</a>
+				</li>
+				<li>
+					<a class="nav-list__link" href="#">подписка</a>
+				</li>
+			</ul>
+			<a href="#" class="header__link">меню</a>
+			<div class="header__title">секретные посылки друзей</div>
+		</header>
+			<div class="form-container">
+				<form class="form" 
+					method="POST" 
+					action="https://formsubmit.co/bromgegsin@gmail.com"
+					autocomplete="off">
+					<div class="form__form-fields-container">
+						<fieldset class="form__form-field">
+							<label class="form__form-field__label" for="name">Имя</label>
+							<input class="form__form-field__input" 
+								type="text" name="name" />
+						</fieldset>
+						<fieldset class="form__form-field">
+							<label class="form__form-field__label">Город</label>
+							<input class="form__form-field__input" 
+								type="text" name="city" />
+						</fieldset>
+						<fieldset class="form__form-field">
+							<label class="form__form-field__label">Подарок</label>
+							<input class="form__form-field__input" 
+								type="text" name="gift" />
+						</fieldset>
+						<fieldset class="form__form-field">
+							<label class="form__form-field__label">Электронная почта</label>
+							<input class="form__form-field__input" 
+								type="email" name="mail" />
+						</fieldset>
+					</div>
+					<div class="form__btn-container">
+						<input class="form__btn" value="отправить" type="submit" />
+					</div>
+				</form>
+				<div class="send-status">
+					ваша посылка уже в пути!
+				</div>
+			</div>
+		<footer class="footer">
+			<div class="footer__text">секретные посылки друзей</div>
+			<a class="footer__link" href="../index.html">назад</a>
+		</footer>
+	</div>
+</body>
+</html>
